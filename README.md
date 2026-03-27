@@ -26,4 +26,3 @@ flashrom -p serprog:dev=/dev/ttyACM0:115200,spispeed=12M -r foo.bin
 The project is based on the spi_flash example by Raspberry Pi (Trading) Ltd. which is licensed under BSD-3-Clause.
 
 As a lot of the code itself was heavily inspired/influenced by `stm32-vserprog` this code is licensed under GPLv3.
-
